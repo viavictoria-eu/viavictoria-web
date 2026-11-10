@@ -381,6 +381,10 @@ footer{padding:50px 0 34px;background:#fff}
 .current-action-bank button:hover,.current-action-bank button:focus-visible{background:var(--navy);color:#fff}
 @media(max-width:560px){.current-action-bank{padding:16px}.current-action-bank-row{gap:10px}.current-action-bank button{margin:0;width:100%}}
 
+
+/* Compact bilingual flag under the language code; no other layout changes. */
+.lang-switch{flex-direction:column;gap:3px;padding:6px 9px;min-height:44px}
+.lang-switch .lang-flag{display:block;width:22px;height:14px;flex:0 0 14px;border:1px solid rgba(0,23,73,.14);border-radius:1px;box-sizing:border-box}
 </style>
 <link rel="canonical" href="https://viavictoria.eu/"/>
 <link rel="alternate" hreflang="sk" href="https://viavictoria.eu/"/>
@@ -401,7 +405,7 @@ footer{padding:50px 0 34px;background:#fff}
 <a href="#kontakt">Kontakt</a>
 </nav>
 <a class="nav-cta" href="#pomoct">Chcem pomôcť</a>
-<a class="lang-switch" href="en/" hreflang="en" lang="en" aria-label="English version of Via Victoria">EN</a>
+<a class="lang-switch" href="en/" hreflang="en" lang="en" aria-label="English version of Via Victoria">EN<svg class="lang-flag" viewBox="0 0 60 30" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><rect width="60" height="30" fill="#012169"/><path d="M0 0 60 30M60 0 0 30" stroke="#fff" stroke-width="10"/><path d="M0 0 60 30M60 0 0 30" stroke="#c8102e" stroke-width="4"/><path d="M30 0v30M0 15h60" stroke="#fff" stroke-width="12"/><path d="M30 0v30M0 15h60" stroke="#c8102e" stroke-width="6"/></svg></a>
 <button aria-expanded="false" aria-label="Otvoriť menu" class="menu-btn" type="button">☰</button>
 </div>
 </header>
